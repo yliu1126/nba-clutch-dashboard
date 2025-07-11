@@ -1,0 +1,37 @@
+.tooltip {
+    background: white;
+    padding: 2x;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    line-height: 1.5;
+    height: fit-content;
+    width: fit-content;
+}
+.report-container {
+    display: flex;
+    flex-direction: column;
+    .header {
+        margin: 1rem;
+        text-align: left;
+    }
+    .chart-container{
+        display: flex;
+        flex-direction: row;
+        .filter-container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 1rem;
+    
+            .headshot-containter {
+                text-align: center;
+            }
+        }
+        .court-container{
+            margin: 1rem;
+            margin-top: 0rem;
+        }
+
+    }
+    
+}

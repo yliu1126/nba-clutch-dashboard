@@ -1,0 +1,14 @@
+.headshot-container {
+    text-align: center;
+    margin-top: 2rem;
+    .headshot-image {
+        height: 120px;
+        border-radius: 8px; 
+        border: 1px solid #ccc;
+    }
+    .player-name {
+        font-size: 14px;
+        margin-top: 4px; 
+        font-weight: bold;
+    }
+}
