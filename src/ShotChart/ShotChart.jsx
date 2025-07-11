@@ -54,8 +54,6 @@ const Court = ({ shots }) => {
   const madeThrees = shots.filter(s => (s.SHOT_TYPE === "3PT Field Goal") & s.SHOT_MADE).length;
   const threesPercentage = totalThrees > 0 ? ((madeThrees / totalThrees) * 100).toFixed(1) : "0.0";
 
-console.log(shots.filter(s => s.SHOT_TYPE === "2PT Field Goal"))
-
   return (
     <div className="court-container">
       <h2 style={{ textAlign: "center" }}>Clutch Shot Chart</h2>
@@ -114,7 +112,7 @@ const ShotChart = () => {
   const [periodFilter, setPeriodFilter] = useState("All");
 
   useEffect(() => {
-    fetch("/clutch_shots_full.json")
+    fetch(`${process.env.PUBLIC_URL}/clutch_shots_full.json`)
       .then((res) => res.json())
       .then((data) => {
         const scale = 10;

@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+Visit the dashboard at https://yliu1126.github.io/nba-clutch-dashboard/
+
+I built a minimal version of NBA clutch shot chart for all players. I define clutch time as less than 2 mins on game clock in fourth quarter or the whole overtime period. Given data limitation, I wasn't able to gather game score data. If that's available, we should put a restrain on game score as well to only include game score difference within 5 points. 
+
+Thanks to Dom Samangy (https://x.com/dsamangy) for the Dataset!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,6 +75,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# nba-clutch-dashboard
->>>>>>> dac33acdc686cdeb202d2bf6e2df56613926f4c0
